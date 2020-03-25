@@ -13,7 +13,7 @@ class NewItem extends Component{
         this.setState({
             inputContent:event.target.value
         })
-        console.log(this.state.inputContent)
+        // console.log(this.state.inputContent)
     }
 
     onAddBtnClick = () => {
